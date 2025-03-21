@@ -1,0 +1,18 @@
+#inch->cm
+inch = float(input("인치 단위를 입력하세요: "))
+cm = inch * 2.542
+print(f"{inch} inch는 {cm: .2f} cm 입니다.")
+
+#kg->pound
+kg = float(input("킬로그램 단위를 입력하세요: "))
+pound = kg * 2.20462
+print(f"{kg} kg는 {pound: .2f} 파운드 입니다.")
+
+#반지름->둘레, 넓이
+import math
+radius = float(input("원의 반지름을 입력하세요: "))
+circumference = 2*math.pi*radius
+area = math.pi*radius**2
+
+print(f"원의 둘레: {circumference: .2f}cm")
+print(f"원의 넓이: {area:.2f}cm^2")1
