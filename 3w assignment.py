@@ -1,4 +1,4 @@
-sel =int(input("입력 진ㅜ 결ㅓ(16/10/8/2) : "))
+sel =int(input("입력 진수 결정 (16/10/8/2) : "))
 num =input("값 입력 : ")
 
 if sel ==16:
